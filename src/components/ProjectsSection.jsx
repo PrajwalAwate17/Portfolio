@@ -3,32 +3,62 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
+    title: "Kawaii Shop",
+    description: "Anime sticker shop with product management.",
+    image: "/projects/KPhoto.png",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "Online kawai stickers shop.",
+    githubUrl: "https://github.com/PrajwalAwate17/Sticker-shop",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "GeminiAI",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "Fully responsive Gemini app,AI-based platform for interacting with generative models.",
+    image: "/projects/gemini.jpg",
+    tags: ["TypeScript", "Gemini api", "Next.js"],
+    demoUrl: "https://github.com/PrajwalAwate17/Gemini-Ai",
+    githubUrl: "https://github.com/PrajwalAwate17/Gemini-Ai",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Spotify - Music app",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
+      "Fully functional Spotify app.",
+    image: "/projects/SPhoto.png",
+    tags: ["React", "Node.js", "Tailwind css"],
+    demoUrl: "https://github.com/PrajwalAwate17/Spotify-web-app",
+    githubUrl: "https://github.com/PrajwalAwate17/Spotify-web-app",
+  },
+  {
+    id: 4,
+    title: "FlameTrack - Wilefire tracking app",
+    description:
+      "Wildfire tracking app using NASA api.",
+    image: "/projects/F.png",
+    tags: ["React", "Node.js", "NASA api"],
+    demoUrl: "https://flaremap.onrender.com/",
+    githubUrl: "https://github.com/PrajwalAwate17/JS-FlareMap",
+  },
+  {
+    id: 5,
+    title: "PromptVerse",
+    description:
+      "Developed a powerful tool for crafting and sharing AI prompts, optimizing interaction across diverse AI platforms.",
+    image: "/projects/PromptVerse.png",
+    tags: ["React", "Node.js"],
+    demoUrl: "https://github.com/PrajwalAwate17/Prompt-Verse",
+    githubUrl: "https://github.com/PrajwalAwate17/Prompt-Verse",
+  },
+  {
+    id: 6,
+    title: "Book Store",
+    description:
+      "An anime bookstore with secure private routes, offering personalized access to exclusive content and a seamless user experience.",
+    image: "/projects/bookstore.png",
     tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://github.com/PrajwalAwate17/Book-Store",
+    githubUrl: "https://github.com/PrajwalAwate17/Book-Store",
   },
 ];
 
@@ -100,7 +130,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/prajwalAwate17"
           >
             Check My Github <ArrowRight size={16} />
           </a>

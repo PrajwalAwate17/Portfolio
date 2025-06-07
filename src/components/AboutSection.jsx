@@ -1,5 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react";
-
+import CV from '../assets/Prajwal_awate.pdf';
 export const AboutSection = () => {
   return (
     <section id="about" className="py-24 px-4 relative">
@@ -12,20 +12,17 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate Web Developer
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              I’m a Computer Science Engineer with a passion for building modern, responsive web applications. With a strong foundation in programming and web development, I enjoy solving real-world problems through clean code and smart design. My expertise includes HTML, CSS, JavaScript, React, and Node.js. I constantly explore new tools and technologies to stay ahead in the fast-paced tech world.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              Beyond coding, I believe in continuous learning and collaboration. I’ve worked on several projects that showcase both my technical and creative abilities. Whether it’s designing sleek user interfaces or writing efficient backend logic, I aim to deliver quality results. I’m excited to grow as a developer and contribute to meaningful digital experiences.
+
+
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,7 +32,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href={CV}
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
